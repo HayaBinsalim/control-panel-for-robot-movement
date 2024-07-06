@@ -65,12 +65,15 @@ Create a ```.php``` file and name it ```last_command.php``` and add the followin
 ## Results 
 The image below is of the control oanle. As you can see, it shows that the comman **stop** was logged successfuly, which in this case is the last command. 
 
-<img width="658" alt="image" src="https://github.com/HayaBinsalim/displaying-commands/assets/173661622/e72aebe7-ac22-4da8-a630-45b1b1620f00">
+![Screenshot 2024-07-06 150651](https://github.com/HayaBinsalim/control-panel-for-robot-movement/assets/173661622/d3447682-ba28-4a84-9909-eafbce9135b8)
+
 
 The image below is of the Command History. You can see that the last command in the list is **stop**. 
 
-<img width="634" alt="image" src="https://github.com/HayaBinsalim/displaying-commands/assets/173661622/911676ea-80bc-4710-a680-aabb36888d68">
+![Screenshot 2024-07-06 153728](https://github.com/HayaBinsalim/control-panel-for-robot-movement/assets/173661622/3cd11a3d-302f-47c5-98cd-4d0217c06230)
+
 
 The image below is of the page that shows the last command alone. It is, obviously, the **stop**. 
 
-<img width="712" alt="image" src="https://github.com/HayaBinsalim/displaying-commands/assets/173661622/4f86c9db-6555-4778-9d62-c102569377ac">
+<img width="712" alt="image" src="https://github.com/HayaBinsalim/control-panel-for-robot-movement/assets/173661622/bb1cfd53-61f3-46dc-b4ad-47a4080ed1bd">
+
