@@ -4,14 +4,19 @@ In this project, a web page of a control panel for robot movement will be create
 
 ## Software Requirements 
 - xampp
-- MySQL
-- phpMyAdmin
-- VS Code
-
+- MySQL (add local host here!)
+- phpMyAdmin 
+- VS Code OR Notepad
+  
+Before starting in the following steps, open ```xampp``` and start both **Apache** and **MySQL**. 
+  
 ## Steps 
 ### 1. Creating the Control Panel page 
-The control panel web interface for this project will be created as a php page. The page will show the commands/directions of the robot. These are the ones for the user to control the robot's movement from. To build this, a ne Text Document is added in the project folder. In this case, the Text Document is renamed to ```index.php```. Ensure the extension of the file is cahnged from ```.txt``` to ```.php```. Edite the file in notepad and add the code below. 
-#### The PHP script to submit commands and log them into the database:
+The control panel web interface for this project will be created as a php page. The page will show the commands/directions of the robot. These are the ones for the user to control the robot's movement from. To build this, a new *Text Document* is added in the project folder. In this case, the *Text Document* is renamed to ```index.php```. Ensure the extension of the file is cahnged from ```.txt``` to ```.php```. Add another file for the css styling. Rename it to ```style.css```. Once gain, ensure the extension is changed from ```.txt``` to ```.css```. 
+
+#### The PHP script to submit commands and log them into the database (index.php) 
+This will create the web page that will show the commands and allow the user to choose the directions of the robot's movement. 
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +50,9 @@ The control panel web interface for this project will be created as a php page. 
 ```
 This will create a page with the control panel. It can be edited as desired. 
 
-#### The CSS file for basic styling.
+#### The CSS file for basic styling (styling.css)
+This can be edited as desired, you can change the colours, alignment, and font. 
+
 ```
 body {
     background-color: #add8e6;
@@ -79,7 +86,7 @@ button {
 
 ### 2. Setting Up the Database 
 In phpMyAdmin, a new database ```robot_control``` is created, then a new table ```commands``` for the commands is added. 
-The PHP script below is to creat the database connection. It is added in a file in ```C:\xampp\htdocs```, name it **db.php**. 
+The PHP script below is to create the database connection. It is added in a file in ```C:\xampp\htdocs```, name it **db.php**. 
 
 ```
 <?php
