@@ -1,0 +1,28 @@
+body {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.control-panel, .command-history, .last-command {
+    background-color: #ffc0cb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
